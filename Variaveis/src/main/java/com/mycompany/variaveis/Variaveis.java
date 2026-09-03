@@ -7,9 +7,9 @@ package com.mycompany.variaveis;
 /* Comentário de várias linhas */
 // Comentário de uma linha
 
-public class Variaveis {
+public class Variaveis { //indica que aqui dentro será escrito códigos. O nome da classe é o mesmo nome do arquivo
     // a classe main é quem executa os codigos
-    public static void main(String[] args) {
+    public static void main(String[] args) { // classe é MAIN um método que é utilizado para executar os códigos
     /* códigos de saída -> são utilizados para imprimir/mostrar dados e mensagens*/    
         System.out.println("Ola"); // "println" pula uma linha
         System.out.println("eu sou um programador");
@@ -24,11 +24,12 @@ public class Variaveis {
         float peso ; //valor decimal pequeno
         boolean solteiro = true; // valor lógico
         
-        System.out.println("Olá, " +nome);
+        System.out.println(" Ola, " +nome);
+        System.out.println("Voce tem " +idade+ " anos de idade.");
         
         
         
     } // fim da main
-}
+} // fecha a classe
 // nenhum código pode ficar aqui fora
 
